@@ -22,8 +22,10 @@ public class ApplePicker : MonoBehaviour
             pos.y = basketBottomY + (basketSpacingY*i);
             tBasketGO.transform.position = pos;
             basketList.Add(tBasketGO);
+            Debug.log("test") 
         }    
     }
+    
 
     public void AppleDestroyed()
     {
